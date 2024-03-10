@@ -1,0 +1,123 @@
+
+.certificates-main-div-page5{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background-color: #85a8c5;
+}
+
+.certificates-carousel-page5 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.data-mapping-carousel-page6 {
+  white-space: nowrap;
+  transition: transform 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-certificate-item {
+  display: inline-grid;
+  justify-items: center;
+  height: 100%;
+  background-color: #fff;
+}
+
+.carousel-certificate-item-description-page6 {
+  font-size: 1.15rem;
+  /* margin: 40px 0 40px 0; */
+  padding: 0 20px 0 20px;
+  white-space: normal;
+  color: #617d98;
+}
+.carousel-certificate-item-img-page6{
+  width: 40%;
+  padding: 0 20px 0 20px;
+}
+
+/* final stage */
+
+.certificates-carousel-buttons-page6 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.certificates-carousel-button-arrow-page6 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.certificates-carousel-indicators-page6 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.certificates-carousel-indicator-buttons-page6{
+  border: none;
+  cursor: pointer;
+}
+
+.certificates-carousel-indicators-page6 > button {
+  margin: 5px;
+  background: none;
+}
+
+.certificate-carousel-indicator-style {
+  color: #26343f;
+}
+
+.certificate-carousel-indicator-style-active {
+  color: #ffffff;
+}
+
+
+
+
+/*   CSS Snippet for page and title*/
+
+.containerPage6 {
+  /* height:auto; */
+  margin-bottom: 1rem;
+  padding: 0 2rem 1rem 2rem;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}
+.title-page6 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  text-align: center;
+  margin-top: 8%;
+  display: inline-block;
+}
+
+
+@media screen and (max-width: 760px) {
+  /* 768px is size of iPad mini the devices below will be applied this property */
+  .title-page6 {
+    font-size: 2rem;
+    /* white-space: nowrap; */
+  }
+  .text-page6 {
+    /* white-space: nowrap; */
+  }
+}

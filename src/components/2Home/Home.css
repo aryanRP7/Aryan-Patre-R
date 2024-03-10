@@ -1,0 +1,60 @@
+
+/* First Page CSS******************************************************* */
+.page1 {
+    display: grid;
+    grid-template-rows: 1fr 0.5fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100vh;
+    margin-bottom: 1rem;
+    /* background-image: linear-gradient(to right top, #e3fdfd, #bae9ea, #8fd5d7, #5fc1c6, #00adb5); */
+    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+
+  }
+  .design-page1 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 1.5rem;
+    color: #535c91;
+    text-align: start;
+    /* transform: rotate(-90deg); */
+  }
+  
+  .title-page1 {
+    grid-area: 3/2/4/5;
+    text-align: start;
+    color: white;
+  }
+  .para-page1 {
+    max-width: 150px;
+    font-weight: lighter;
+    font-size: 1rem;
+    grid-area: 5/2/6/6;
+    text-align: start;
+    color: white;
+  }
+  
+  .name-page1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+  }
+  .full-stack-page1 {
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+
+  @media screen and (max-width: 850px) {
+    .name-page1 {
+      font-size: 2rem;
+      white-space: nowrap;
+    }
+    .para-page1 {
+      white-space: nowrap;
+    }
+  }

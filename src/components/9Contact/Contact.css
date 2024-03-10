@@ -1,0 +1,57 @@
+.containerPage9 {
+  /* height:auto; */
+  margin-bottom: 1rem;
+  padding: 0 2rem 1rem 2rem;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}
+.title-page9 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  text-align: center;
+  margin-top: 8%;
+  display: inline-block;
+}
+
+.title-page9 .sub-title-page9 {
+  font-size: 1.2rem;
+  border-top: 5px solid rgb(60, 30, 151);
+  border-radius: 30px;
+}
+.row2-col1-page9 {
+  text-align: start;
+  color: white;
+  line-height: 2rem;
+}
+.social-icons-page9{
+    font-size: 1.5rem;
+    margi7: 0.5rem;
+}
+
+.instagram{
+        background: #f09433; 
+      background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+      background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+      background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    
+}
+@media screen and (max-width: 760px) {
+  /* 768px is size of iPad mini the devices below will be applied this property */
+  .title-page9 {
+    font-size: 2rem;
+    /* white-space: nowrap; */
+  }
+  .text-page9 {
+    /* white-space: nowrap; */
+  }
+}

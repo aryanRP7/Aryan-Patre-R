@@ -1,0 +1,84 @@
+.containerPage7 {
+  /* height: auto; */
+  margin-bottom: 1rem;
+  padding: 0 2rem 1rem 2rem;
+
+  background-image: linear-gradient(
+    to right,
+    #191825,
+    #1a1932,
+    #1b193f,
+    #1d184b,
+    #1f1758,
+    #251863,
+    #2b186e,
+    #331879,
+    #3e1b85,
+    #4a1d92,
+    #571f9e,
+    #6420aa
+  );
+}
+/* .row2Page7 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+.title-page7 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  text-align: start;
+  display: inline-block;
+  margin-top: 8%;
+}
+.project1, .project2,.project3 {
+
+  border-radius: 2rem;
+}
+.img-div{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* else add class g-0 in row in jsx file it will remove padding of Bootstrap Gutters*/
+
+.project1, .project2,.project3 {
+  width: 80%;
+  height: auto;
+}
+.img-div{
+    display: flex;
+  flex-direction: row-reverse;
+}
+.img-div-project2{
+    flex-direction: row;
+}
+.text-page7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+}
+.text-project2-page7{
+    text-align: end;
+    padding-right: 0.5rem;
+}
+@media screen and (max-width: 760px) {  /* 768px is size of iPad mini the devices below will be applied this property */
+  .title-page7 {
+    font-size: 2rem;
+    /* white-space: nowrap; */
+  }
+  .text-page7 {
+    /* white-space: nowrap; */
+  }
+  .text-project2-page7{
+    text-align: start;
+  }
+
+  }

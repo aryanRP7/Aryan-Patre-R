@@ -1,0 +1,145 @@
+.nav-menu {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.NavbarItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 30px;
+    /* background-color: #222; */
+    background: #222;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    width: 90%;
+    height: 50px;
+    border-radius: 40px;
+    /* Making navbar floating on the screen */
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%)
+
+  }
+  .logo{
+    color: white;
+    justify-self: start;
+    cursor: pointer;
+    font-size: 1.4rem;
+
+  }
+  .feather{
+    margin-left: 0.3rem;
+    font-size: 1.2rem;
+  }
+  .nav-menu{
+    display: grid;
+
+    grid-template-columns: repeat(6 , auto);
+    grid-gap:10px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    justify-content: end;
+    margin: 0;
+  }
+  .nav-links{
+    text-decoration: none;  
+    color: white;
+    font-size: 1rem;
+    padding: 0.7rem 1rem ;
+    white-space: nowrap;
+  }
+  .nav-links i{
+    padding-right: 10px;
+  }
+  .nav-links:hover{
+    background: rgb(80,80,238);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+  .fa-bars, .fa-times{
+    color: white;
+
+  }
+  .menu-icons{
+    display: none;
+    cursor: pointer;
+  }
+  .send-message{
+    padding: 0.3rem 0.5rem;
+    white-space: nowrap;
+    background-color: #fafafa;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #222;
+
+  }
+
+  .NavbarItems {
+    z-index: 99;
+
+  } 
+  @media screen and (max-width: 850px) {
+    .NavbarItems{
+
+      width: 80%;
+      height: 50px;
+
+      position: fixed;
+ 
+  
+    }
+    .nav-menu{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      background-color: rgba(255,255,255, .25);
+      box-shadow: 0 8px 32px 0 rgba(31,38,135,.37); /*x/y/radius(shadow)/size/color*/
+      backdrop-filter: blur(4px);
+      border-radius: 13px;
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 0;
+      left: -110%;   /*Hiding menu bar when not clicked on bars*/
+      align-items: stretch;
+      padding: 80px 0 30px 0;
+      margin: 0px;
+      z-index: -1;
+      transition:all 0.3s ease-in-out;
+
+
+    } 
+
+    .nav-menu.active{
+      left: 0%; /*Showing menu bar when clicked on bars*/
+    }
+    .nav-links{
+      display: block;
+      width: 100%;
+      padding: 2rem 0;
+      color: #222;
+
+    } 
+    .nav-links:hover{
+      background-color: rgba(255,255,255,0.25);
+      backdrop-filter: blur(20px);
+
+    }
+    .menu-icons{
+      display: block;
+
+    }
+   .send-message{
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;   /*aligning signup button to center instead of left */
+   } 
+  }

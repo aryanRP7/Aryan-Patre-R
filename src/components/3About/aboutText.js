@@ -1,0 +1,3 @@
+const aboutText =
+`"Hello, I'm Aryan Patre, a Full-Stack developer with a deep passion for technology. I thrive on tackling new, challenging projects, leveraging my experience in both front-end and back-end development. Proficient in languages like C, C++, Python, and JavaScript, I seamlessly adapt to diverse project requirements. My expertise spans Front-End, Back-End, ReactJS, and PostgreSQL. Beyond development, I am a certified cybersecurity professional, emphasizing data security in my work."`
+export default aboutText;

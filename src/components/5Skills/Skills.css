@@ -1,0 +1,38 @@
+
+.containerPage5{
+    /* height:auto; */
+    margin-bottom: 1rem;
+    padding: 0 2rem 1rem 2rem;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+}
+.title-page5{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+    display: inline-block;
+}
+.skills-icon-page5{
+    text-align: start;
+    color: white;
+    line-height: 2rem;
+}
+/* Icons ******************************************************************************************************/
+.javascript{
+    height: 60px;
+}
+
+
+@media screen and (max-width: 760px) {  /* 768px is size of iPad mini the devices below will be applied this property */
+    .title-page5 {
+      font-size: 2rem;
+      /* white-space: nowrap; */
+    }
+    .text-page5 {
+      /* white-space: nowrap; */
+    }
+  }

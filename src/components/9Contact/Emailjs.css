@@ -1,0 +1,14 @@
+.col1-row3 {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    text-align: start;
+    }
+    
+.contact-form{
+        width: 80%;
+        border-radius: 0.4rem;
+    }
+    .emailForm{
+}

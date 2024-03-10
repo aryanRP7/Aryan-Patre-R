@@ -1,0 +1,53 @@
+.row2Page4{
+    color: aliceblue;
+}
+
+.qualification-text-page4{
+    text-align: start;
+    line-height: 2rem;
+}
+
+
+
+
+/* Basic CSS snippet created */
+
+
+.containerPage4{
+    /* height:auto; */
+    margin-bottom: 1rem;
+    padding: 0 2rem 1rem 2rem;
+    background: rgb(0,2,47);
+background: linear-gradient(90deg, rgba(0,2,47,1) 0%, rgba(244,46,46,1) 200%);
+
+}
+.title-page4{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+    display: inline-block;
+}
+.skills-icon-page4{
+    text-align: start;
+    color: white;
+    line-height: 2rem;
+}
+/* Icons ******************************************************************************************************/
+.javascript{
+    height: 60px;
+}
+
+
+@media screen and (max-width: 760px) {  /* 768px is size of iPad mini the devices below will be applied this property */
+    .title-page4 {
+      font-size: 2rem;
+      /* white-space: nowrap; */
+    }
+    .text-page4 {
+      /* white-space: nowrap; */
+    }
+  }
