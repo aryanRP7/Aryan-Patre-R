@@ -1,8 +1,17 @@
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+*{
   font-family: "Roboto", sans-serif;
+
+}
+.all-components{
+  padding: 0 30px 0 30px;
 }
 /*Font form google*/
 .roboto-thin {
@@ -80,7 +89,11 @@
 /*Font End*/ 
 .App {
   text-align: center;
-  padding: 0 30px 0 30px;
+  /* padding: 0 30px 0 30px; */
+}
+.blue-color{
+  border-bottom: 1px inset #5356FF;
+  color: #5356FF;
 }
 
 
@@ -99,6 +112,21 @@
 }
 /* responsive media query******************************************************* */
 
+@media only screen and (max-width: 850px) {
+/* body, html{
+  overflow-y: auto;
+  overflow-x: hidden;
+} */
+
+/* .main-div-index{
+  overflow-x: hidden;
+  overflow-y: auto;
+} */
+
+.all-components{
+  padding: 0 20px 0 20px;
+}
+}
 /* @media (max-width: 1080px) {
 } */
 /* @media (max-width: 1080px) {
@@ -117,3 +145,5 @@
 
 
 } */
+
+

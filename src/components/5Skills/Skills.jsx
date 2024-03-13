@@ -32,21 +32,21 @@ function Skills() {
       <div className="row row2Page5">
         <div className="col col-md-3 border">
           <img className="python" src={python} alt="Python"></img>
-          <p>Python</p>
+          <p className="para-page5">Python</p>
         </div>
         <div className="col col-md-3 border">
           <img className="javascript" src={javascript} alt="JavaScript"></img>
-          <p>Javascript</p>
+          <p className="para-page5">Javascript</p>
         </div>
         <div className="col col-md-3 border">
           <img className="git" src={git} alt="Git Source Control"></img>
-          <p>Git Source Control</p>
+          <p className="para-page5">Git Source Control</p>
         </div>
 
         <div className="col col-md-3 border">
           <img className="html htmlcss" src={html} alt="html"></img>
           <img className="css" src={css} alt="css"></img>
-          <p>Html & CSS</p>
+          <p className="para-page5">Html & CSS</p>
         </div>
       </div>
 
@@ -54,19 +54,19 @@ function Skills() {
         <div className="col col-md-3 border">
           <img className="c" src={c} alt="c"></img>
           <img className="cpp" src={cpp} alt="cpp"></img>
-          <p>C & C++</p>
+          <p className="para-page5">C & C++</p>
         </div>
         <div className="col  col-md-3 border">
           <img className="react" src={react} alt="react"></img>
-          <p>React</p>
+          <p className="para-page5">React</p>
         </div>
         <div className="col col-md-3 border">
           <img className="node" src={node} alt="node"></img>
-          <p>Node.js</p>
+          <p className="para-page5">Node.js</p>
         </div>
         <div className="col col-md-3 border">
           <img className="express" src={express} alt="express"></img>
-          <p>Express.js</p>
+          <p className="para-page5">Express.js</p>
         </div>
 
       </div>
@@ -74,19 +74,19 @@ function Skills() {
 
         <div className="col  col-md-3 border">
           <img className="mysql" src={mysql} alt="mysql"></img>
-          <p>MySQL</p>
+          <p className="para-page5">MySQL</p>
         </div>
         <div className="col  col-md-3 border">
           <img className="postgres" src={postgres} alt="postgres"></img>
-          <p>Postgres</p>
+          <p className="para-page5">Postgres</p>
         </div>
         <div className="col col-md-3 border">
           <img className="mongodb" src={mongodb} alt="mongodb"></img>
-          <p>MongoDB</p>
+          <p className="para-page5">MongoDB</p>
         </div>
         <div className="col col-md-3 border">
           <img className="bootstrap" src={bootstrap} alt="bootstrap"></img>
-          <p>Bootstrap</p>
+          <p className="para-page5">Bootstrap</p>
         </div>
 
       </div>

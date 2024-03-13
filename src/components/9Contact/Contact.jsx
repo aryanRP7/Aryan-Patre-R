@@ -21,15 +21,15 @@ function Contact() {
       </div>
 
       <div className="row row2Page9">
-        <div className="col-12 col-md-6 col-sm-12 row2-col1-page9 border">
+        <div className="col-12 col-md-6 col-sm-12 row2-col1-page9  border">
           I'd love if you reached out to me. Even if it's just to say "Hey!".
           Don't hesitate! Drop me a line and I'll get back to you ASAP!
           <br />
           <br />
           <i class="fa-solid fa-envelope"></i>
-          aryanalls100@gmail.com
+          <span className="email-address">aryanalls100@gmail.com</span>
         </div>
-        <div className="col col-md-6 col-sm-12 border">This is image area</div>
+        <div className="col col-md-6 col-sm-12 border"><img className="contact-img-1" src="/assets/contact1.svg" alt="contact me"></img></div>
       </div>
       <div className="row row3Page9">
         <div className="col-12 col-md-6 col1-row3 border">

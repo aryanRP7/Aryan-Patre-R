@@ -1,9 +1,9 @@
 .containerPage7 {
   /* height: auto; */
-  margin-bottom: 1rem;
+  margin-bottom: 5%;
   padding: 0 2rem 1rem 2rem;
 
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right,
     #191825,
     #1a1932,
@@ -17,7 +17,9 @@
     #4a1d92,
     #571f9e,
     #6420aa
-  );
+  ); */
+  background-color: #EEEEEE;
+  ;
 }
 /* .row2Page7 {
     padding: 0;
@@ -25,11 +27,13 @@
     box-sizing: border-box;
 } */
 .title-page7 {
-  font-size: 3rem;
+  font-size: 38px;
   font-weight: bold;
   margin: 0px;
   padding: 0px;
-  color: white;
+  /* color: white; */
+  color: #0a2540;
+
   text-align: start;
   display: inline-block;
   margin-top: 8%;
@@ -46,7 +50,7 @@
 /* else add class g-0 in row in jsx file it will remove padding of Bootstrap Gutters*/
 
 .project1, .project2,.project3 {
-  width: 80%;
+  width: 60%;
   height: auto;
 }
 .img-div{
@@ -61,17 +65,39 @@
   flex-direction: column;
   justify-content: center;
   text-align: start;
-  color: white;
-  font-size: 1.5rem;
+  color: #425466;
+
+  border-top: thick double #32a1ce;
+  border-right: thick double #32a1ce;
+  border-bottom: thick double #32a1ce;
+  /* color: white; */
   padding-left: 0.5rem;
+  border-radius: 20px;
 }
+
 .text-project2-page7{
     text-align: end;
     padding-right: 0.5rem;
+    border-right: 0;
+    border-left: thick double #32a1ce;
+}
+.mainpara-page7{
+  font-size: 1.4rem;
+  color: #2e3a55;
+
+}
+
+.subpara-page7{
+  font-size: none;
 }
 @media screen and (max-width: 760px) {  /* 768px is size of iPad mini the devices below will be applied this property */
+  .containerPage7 {
+    /* height: auto; */
+    margin-bottom: 15%;
+    padding: 0 1rem 1rem 1rem;
+  }
   .title-page7 {
-    font-size: 2rem;
+    /* font-size: 2rem; */
     /* white-space: nowrap; */
   }
   .text-page7 {

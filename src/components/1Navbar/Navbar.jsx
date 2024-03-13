@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav className="NavbarItems">
       {/* first logo part */}
-        <h3 className="logo">Aryan Patre<i class="fa-solid fa-feather feather"></i></h3>
+        <h3  className="logo"><a className="logo" href={"#home"}>Aryan Patre</a><i class="fa-solid fa-feather feather"></i></h3>
 
         <div className="menu-icons" onClick={handleClick}><i  className={showMediaIcons ? "fas fa-times" : "fas fa-bars"}></i></div>
       {/* second menu part */}

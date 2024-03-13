@@ -11,11 +11,18 @@ function Qualification() {
         </div>
         <div className="col col-md-4 order-4 col-sm-12 border title-page4"></div>
       </div>
+      <div className="row row1Page4">
+        <div className="col col-md-4 order-2 col-sm-12 border title-page4"></div>
+        <div className="col col-md-4 order-3 col-sm-12 border title-page4">
+          
+        </div>
+        <div className="col col-md-4 order-4 col-sm-12 border title-page4"></div>
+      </div>
 
       <div className="row row2Page4">
         <div className="col-12 col-md-4 col-sm-4 qualification-text-page4 border">
-            <h4>
-              Bachelor of Technology (I.T.)
+            <h4 className="main-subtitle-page4">
+              <span className="subtitle-page4">B</span>achelor of <span className="subtitle-page4">T</span>echnology (I.T.)
               <br />
             </h4>
             <i class="fa-solid fa-school"></i> MIT ADT - School Of Engineering
@@ -25,8 +32,8 @@ function Qualification() {
             <i class="fa-solid fa-calendar-days"></i> 2023
         </div>
         <div className="col-12 col-md-4 col-sm-4 qualification-text-page4 border">
-            <h4>
-              XII (MSBSHSE)
+            <h4 className="main-subtitle-page4">
+              <span className="subtitle-page4">XII</span> (MSBSHSE)
               <br />
             </h4>
             <i class="fa-solid fa-school"></i> Sinhgad College Of Arts, Commerce
@@ -38,8 +45,8 @@ function Qualification() {
         </div>
         <div className="col-12 col-md-4 col-sm-4 qualification-text-page4 border">
        
-            <h4>
-              X (MSBSHSE)
+            <h4 className="main-subtitle-page4">
+              <span className="subtitle-page4">X </span>(MSBSHSE)
               <br />
             </h4>
             <i class="fa-solid fa-school"></i> Aided Highschool <br />

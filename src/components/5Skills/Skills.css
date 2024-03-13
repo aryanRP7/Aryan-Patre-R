@@ -1,35 +1,62 @@
 
 .containerPage5{
     /* height:auto; */
-    margin-bottom: 1rem;
+    margin-bottom: 5%;
     padding: 0 2rem 1rem 2rem;
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    background-color: #EEEEEE;
 
+    
 }
 .title-page5{
-    font-size: 3rem;
+    font-size: 38px;
     font-weight: bold;
     margin: 0px;
     padding: 0px;
-    color: white;
+    /* color: white; */
+    color: #0a2540;
     text-align: center;
     margin-top: 8%;
     display: inline-block;
 }
 .skills-icon-page5{
     text-align: start;
-    color: white;
+    /* color: white; */
+
     line-height: 2rem;
 }
 /* Icons ******************************************************************************************************/
-.javascript{
+.python,.javascript,.git,.html,.css,.c,.cpp,.react,.node,.express,.mysql,.postgres,.mongodb,.bootstrap{
     height: 60px;
+}
+.para-page5 {
+  font-size: 18px;
+  color: #425466;
+
+
+}
+
+.python:hover,.javascript:hover,.git:hover,.html:hover,.css:hover,.c:hover,.cpp:hover,.react:hover,.node:hover,.express:hover,.mysql:hover,.postgres:hover,.mongodb:hover,.bootstrap:hover{
+ 
+  height: 70px;
+  transition: 0.4s ease-out;
+
 }
 
 
+
 @media screen and (max-width: 760px) {  /* 768px is size of iPad mini the devices below will be applied this property */
+  .containerPage5{
+    /* height:auto; */
+    margin-bottom: 15%;
+    padding: 0 1rem 1rem 1rem;
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    background-color: #EEEEEE;
+
+    
+}
     .title-page5 {
-      font-size: 2rem;
+      /* font-size: 2rem; */
       /* white-space: nowrap; */
     }
     .text-page5 {

@@ -1,9 +1,10 @@
 
 .containerPage2{
     /* height: auto; */
-    margin-bottom: 1rem;
+    margin-bottom: 5%;
     padding: 0 2rem 1rem 2rem;
-    background-image: linear-gradient(to right,#191825,#1a1932,#1b193f,#1d184b,#1f1758,#251863,#2b186e,#331879,#3e1b85,#4a1d92,#571f9e,#6420aa);
+    background-color: #EEEEEE;
+    /* background-image: linear-gradient(to right,#191825,#1a1932,#1b193f,#1d184b,#1f1758,#251863,#2b186e,#331879,#3e1b85,#4a1d92,#571f9e,#6420aa); */
 
 }
 
@@ -11,27 +12,56 @@
     margin-top: 2%;
 }
 .title-page2{
-    font-size: 3rem;
+    font-size: 38px;
     font-weight: bold;
     margin: 0px;
     padding: 0px;
-    color: white;
+    /* color: white; */
+    color: #0a2540;
+
     text-align: start;
     display: inline-block;
     margin-top: 8%;
 }
+
 .text-page2{
     text-align: start;
-    color: white;
+    /* color: white; */
+    color: #425466;
+    font-size: 18px;
+
     line-height: 2rem;
     display: inline-block;
 }
+
+.about-icon{
+  width: 100px;
+  height: 100px;
+}
+.about-icon-div-page2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
 @media screen and (max-width: 760px) {  /* 768px is size of iPad mini the devices below will be applied this property */
+  .containerPage2{
+    /* height: auto; */
+    margin-bottom:15%;
+    padding: 0 1rem 1rem 1rem;
+    background-color: #EEEEEE;
+    /* background-image: linear-gradient(to right,#191825,#1a1932,#1b193f,#1d184b,#1f1758,#251863,#2b186e,#331879,#3e1b85,#4a1d92,#571f9e,#6420aa); */
+
+}
     .title-page2 {
-      font-size: 2rem;
+      /* font-size: 2rem; */
       /* white-space: nowrap; */
     }
     .text-page2 {
-      /* white-space: nowrap; */
+      text-align: start;
+    }
+    .about-icon{
+      width: 60px;
+      height: 60px;
     }
   }

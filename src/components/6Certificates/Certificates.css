@@ -1,0 +1,57 @@
+
+
+
+
+/*   CSS Snippet for page and title*/
+
+.containerPage6 {
+  /* height:auto; */
+  margin-bottom: 5%;
+  padding: 0 2rem 1rem 2rem;
+  background-color: #EEEEEE;
+
+  /* height: 100%; */
+  /* background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  ); */
+
+}
+.title-page6 {
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  /* color: white; */
+  color: #0a2540;
+
+  text-align: center;
+  /* margin-top: 8%; */
+  display: inline-block;
+}
+.testcertificate
+{
+width: 100px;
+height: 100px;
+}
+@media screen and (max-width: 760px) {
+  .containerPage6 {
+    /* height:auto; */
+    margin-bottom: 15%;
+    padding: 0 1rem 1rem 1rem;
+ 
+  
+  }
+  /* 768px is size of iPad mini the devices below will be applied this property */
+  .title-page6 {
+    /* font-size: 2rem; */
+    /* white-space: nowrap; */
+  }
+  .text-page6 {
+    /* white-space: nowrap; */
+  }
+}

@@ -1,10 +1,11 @@
 .row2Page4{
-    color: aliceblue;
+    /* color: aliceblue; */
 }
 
 .qualification-text-page4{
     text-align: start;
     line-height: 2rem;
+    color: #425466;
 }
 
 
@@ -15,25 +16,38 @@
 
 .containerPage4{
     /* height:auto; */
-    margin-bottom: 1rem;
+    margin-bottom: 5%;
     padding: 0 2rem 1rem 2rem;
-    background: rgb(0,2,47);
-background: linear-gradient(90deg, rgba(0,2,47,1) 0%, rgba(244,46,46,1) 200%);
+    /* background: rgb(0,2,47); */
+/* background: linear-gradient(90deg, rgba(0,2,47,1) 0%, rgba(244,46,46,1) 200%); */
+background-color: #f6f9fc;
+background-color: #EEEEEE;
+
+
 
 }
 .title-page4{
-    font-size: 3rem;
+    font-size: 38px;
     font-weight: bold;
     margin: 0px;
     padding: 0px;
-    color: white;
+    /* color: white; */
+    color: #0a2540;
     text-align: center;
     margin-top: 8%;
     display: inline-block;
 }
+.main-subtitle-page4{
+  color: #2e3a55;
+
+}
+.subtitle-page4{
+        border-bottom: 1px inset #5356FF;
+        color: #5356FF;
+}
 .skills-icon-page4{
     text-align: start;
-    color: white;
+    /* color: white; */
     line-height: 2rem;
 }
 /* Icons ******************************************************************************************************/
@@ -43,8 +57,18 @@ background: linear-gradient(90deg, rgba(0,2,47,1) 0%, rgba(244,46,46,1) 200%);
 
 
 @media screen and (max-width: 760px) {  /* 768px is size of iPad mini the devices below will be applied this property */
+    .containerPage4{
+        /* height:auto; */
+        margin-bottom: 15%;
+        padding: 0 1rem 1rem 1rem;
+        /* background: rgb(0,2,47); */
+    /* background: linear-gradient(90deg, rgba(0,2,47,1) 0%, rgba(244,46,46,1) 200%); */
+    background-color: #f6f9fc;
+    
+    
+    }
     .title-page4 {
-      font-size: 2rem;
+      /* font-size: 2rem; */
       /* white-space: nowrap; */
     }
     .text-page4 {

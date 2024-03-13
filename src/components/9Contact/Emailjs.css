@@ -5,6 +5,12 @@
     justify-content: center; */
     text-align: start;
     }
+
+    .contact-send-message{
+        padding: 5px;
+        background-color:#B4D4FF;
+        border-radius: 5px;
+    }
     
 .contact-form{
         width: 80%;
