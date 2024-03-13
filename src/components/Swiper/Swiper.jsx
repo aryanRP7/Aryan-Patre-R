@@ -1,5 +1,5 @@
 
-import swiperData from './SwiperData';
+import swiperData from './SwiperData.jsx';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 

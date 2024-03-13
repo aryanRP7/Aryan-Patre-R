@@ -18,6 +18,6 @@ const swiperData=
             "Flutter course certificatew.",
           image: "./assets/3.jpg"
         }
-
+        
 ]
 export default swiperData;

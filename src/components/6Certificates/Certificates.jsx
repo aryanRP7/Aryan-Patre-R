@@ -16,11 +16,11 @@ function Certificates() {
       </div>
 
       <div className="row row2Page6">
-        <div className="col-0 col-md-2 order-2 col-sm-0 border title-page6"></div>
-        <div className="col-12 col-md-8 order-3 col-sm-12 border title-page6">
+        <div className="col-0 col-md-2 order-2 col-sm-0 title-page6"></div>
+        <div className="col-12 col-md-8 order-3 col-sm-12 title-page6">
           <Swiperjs />
         </div>
-        <div className="col-0 col-md-2 order-4 col-sm-0 border title-page6"></div>
+        <div className="col-0 col-md-2 order-4 col-sm-0 title-page6"></div>
       </div>
     </div>
   );

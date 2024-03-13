@@ -36,7 +36,7 @@ function Contact() {
           <br />
           <Emailjs />
         </div>
-        <div className="col col-md-6 col-sm-12 border">This is image area</div>
+        <div className="col col-md-6 col-sm-12 border"></div>
       </div>
       <div className="row row4Page9">
         <div className="col col-md-12 col-sm-12 col1-row4 border">

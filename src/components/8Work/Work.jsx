@@ -1,5 +1,5 @@
 import React from "react";
-import Swiperjs from "../Swiper/Swiper.jsx";
+import SwiperWork from "./SwiperWork.jsx";
 import "./Work.css"
 
 function Work() {
@@ -14,11 +14,11 @@ function Work() {
       </div>
 
       <div className="row row2Page8">
-        <div className="col-0 col-md-2 order-2 col-sm-2 border title-page8"></div>
-        <div className="col-12 col-md-8 order-3 col-sm-8 border title-page8">
-          <Swiperjs/>
+        <div className="col-0 col-md-2 order-2 col-sm-2 title-page8"></div>
+        <div className="col-12 col-md-8 order-3 col-sm-8 title-page8">
+          <SwiperWork/>
         </div>
-        <div className="col-0 col-md-2 order-4 col-sm-2 border title-page8"></div>
+        <div className="col-0 col-md-2 order-4 col-sm-2 title-page8"></div>
       </div>
     </div>
   );

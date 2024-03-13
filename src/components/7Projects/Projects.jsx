@@ -10,7 +10,7 @@ function Projects() {
       <div className="row row1Page7">
         <div className="col-sm-0 col-md-6 order-1 border title-page7"></div>
         <div className="col-sm-12 col-md-6 order-2 border title-page7">
-          My projects
+          My Projects
         </div>
       </div>
       {/* g-0 removes extra padding from bootstrap grid(gutters) g-0 is added in row(parent element of box)*/}

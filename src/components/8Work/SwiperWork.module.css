@@ -31,10 +31,15 @@
   }
   
 
-  .swiper-certificate-image{
-    width:80%;
+  .swiper-Work-image{
+    width:100%;
     height:auto;
+    border-radius: 50px;
      object-fit:contain;
+     border-left: 4mm ridge rgba(255, 255,255, .6);
+     border-left: 4mm ridge rgba(255, 255,255, .6);
+     border-right: 4mm ridge rgba(255, 255,255, .6);
+     border-bottom:16mm ridge rgba(255, 255,255, .6);
 }
 @media screen and (max-width: 850px) {
     .swiper-slide img {
