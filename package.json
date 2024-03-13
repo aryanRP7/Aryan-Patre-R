@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/aryanRP7/Aryan-Patre-Port",
   "name": "aryan-patre",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "homepage": "https://github.com/aryanRP7/Aryan-Patre-Port",
+    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
