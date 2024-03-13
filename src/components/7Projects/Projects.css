@@ -39,8 +39,12 @@
   margin-top: 8%;
 }
 .project1, .project2,.project3 {
-
-  border-radius: 2rem;
+border-top: 
+4mm ridge rgba(255, 255, 255, .6);
+  /* border-radius: 2rem; */
+  border-left: 4mm ridge rgba(255, 255,255, .6);
+  border-right: 4mm ridge rgba(255, 255,255, .6);
+  border-bottom:16mm ridge rgba(255, 255,255, .6);
 }
 .img-div{
     padding: 0;
@@ -67,9 +71,10 @@
   text-align: start;
   color: #425466;
 
-  border-top: thick double #32a1ce;
-  border-right: thick double #32a1ce;
-  border-bottom: thick double #32a1ce;
+
+  border-top: 3mm ridge rgba(218, 218, 218, 0.6);
+  border-right: 3mm ridge rgba(218, 218, 218, 0.6);
+  border-bottom: 3mm ridge rgba(218, 218, 218, 0.6); 
   /* color: white; */
   padding-left: 0.5rem;
   border-radius: 20px;
@@ -79,7 +84,7 @@
     text-align: end;
     padding-right: 0.5rem;
     border-right: 0;
-    border-left: thick double #32a1ce;
+    border-left: 3mm ridge rgba(218, 218, 218, 0.6); 
 }
 .mainpara-page7{
   font-size: 1.4rem;
