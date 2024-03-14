@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Aryan-Patre-R/static/css/main.c420db78.css",
+    "main.js": "/Aryan-Patre-R/static/js/main.f238e72f.js",
+    "static/media/traffic.png": "/Aryan-Patre-R/static/media/traffic.ae4a632c8e1dfaf7cd6c.png",
+    "static/media/car.jpg": "/Aryan-Patre-R/static/media/car.24be105d5578bc8bcbc9.jpg",
+    "static/media/blood.jpg": "/Aryan-Patre-R/static/media/blood.1d6b49d5abb2f6ab9a5e.jpg",
+    "static/media/nodejs.svg": "/Aryan-Patre-R/static/media/nodejs.dfa3916040b4495eac617f2d98842980.svg",
+    "static/media/mysql.svg": "/Aryan-Patre-R/static/media/mysql.392ca473354d29793ffa4f131adf86ba.svg",
+    "static/media/postgres.svg": "/Aryan-Patre-R/static/media/postgres.0d6c04cf7c93fb2fdbfca3c9cbc2a48f.svg",
+    "index.html": "/Aryan-Patre-R/index.html",
+    "static/media/cpp.svg": "/Aryan-Patre-R/static/media/cpp.9783a382099c008e6f4868bd6fa6d7d0.svg",
+    "static/media/c.svg": "/Aryan-Patre-R/static/media/c.c5f5840a1c0b461ffc99596cb4635ffc.svg",
+    "static/media/react.svg": "/Aryan-Patre-R/static/media/react.0616e6bdb368928ef441c987b8f65837.svg",
+    "static/media/python.svg": "/Aryan-Patre-R/static/media/python.f11a0b01809ae770588b793a32ee27d7.svg",
+    "static/media/bootstrap.svg": "/Aryan-Patre-R/static/media/bootstrap.f422a4b7796ec347f14de477b4721920.svg",
+    "static/media/mongodb.svg": "/Aryan-Patre-R/static/media/mongodb.1d09cd611afcdfb2c8aa9ad490e65f2a.svg",
+    "static/media/expressjs.svg": "/Aryan-Patre-R/static/media/expressjs.a48495c4d7888dc995ba64026566e84b.svg",
+    "static/media/javascript.svg": "/Aryan-Patre-R/static/media/javascript.db4da07597c5006620f780c54bd8f665.svg",
+    "static/media/git.svg": "/Aryan-Patre-R/static/media/git.f1195ef45ef644ca2c68b2ce7b3763e9.svg",
+    "static/media/css.svg": "/Aryan-Patre-R/static/media/css.9fabb76f945fe2ea70dbdcc19f345709.svg",
+    "static/media/about3.svg": "/Aryan-Patre-R/static/media/about3.e7fe308c22501c17ee22c9cd3aab9225.svg",
+    "static/media/html.svg": "/Aryan-Patre-R/static/media/html.de14fa605a8a56cac5e7c47ef7d08ed1.svg",
+    "main.c420db78.css.map": "/Aryan-Patre-R/static/css/main.c420db78.css.map",
+    "main.f238e72f.js.map": "/Aryan-Patre-R/static/js/main.f238e72f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c420db78.css",
+    "static/js/main.f238e72f.js"
+  ]
+}
